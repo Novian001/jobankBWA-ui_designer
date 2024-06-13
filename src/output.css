@@ -1298,9 +1298,9 @@ video {
   outline-offset: 2px;
 }
 
-.drop-shadow-\[0px_8px_30px_0px_rgba\(14\2c 1\2c 64\2c 0\.05\)\] {
-  --tw-drop-shadow: drop-shadow(0px 8px 30px 0px rgba(14,1,64,0.05));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+.ring-\[\#0E0140\] {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(14 1 64 / var(--tw-ring-opacity));
 }
 
 .transition-all {
@@ -1311,10 +1311,6 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .\*\:\!overflow-visible > * {
@@ -1381,10 +1377,9 @@ video {
   --tw-ring-color: rgb(255 107 44 / var(--tw-ring-opacity));
 }
 
-.hover\:scale-105:hover {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.hover\:border-\[\#FF6B2C\]:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 107 44 / var(--tw-border-opacity));
 }
 
 .hover\:bg-\[\#7521FF\]:hover {
@@ -1407,12 +1402,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:shadow-\[0px_15px_35px_0px_rgba\(14\2c 1\2c 64\2c 0\.10\)\]:hover {
-  --tw-shadow: 0px 15px 35px 0px rgba(14,1,64,0.10);
-  --tw-shadow-colored: 0px 15px 35px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .hover\:ring-2:hover {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
@@ -1429,7 +1418,7 @@ video {
   outline-offset: 2px;
 }
 
-.group:has(:invalid) .group-has-\[\:invalid\]\:border-\[\#0E0140\] {
+.group:has(:hover) .group-has-\[\:hover\]\:border-\[\#0E0140\] {
   --tw-border-opacity: 1;
   border-color: rgb(14 1 64 / var(--tw-border-opacity));
 }

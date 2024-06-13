@@ -1280,6 +1280,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
 .shadow-\[0_8px_30px_0_\#0E01400D\] {
   --tw-shadow: 0 8px 30px 0 #0E01400D;
   --tw-shadow-colored: 0 8px 30px 0 var(--tw-shadow-color);
@@ -1388,6 +1392,14 @@ video {
 .hover\:text-\[\#FF6B2C\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 107 44 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:underline-offset-2:hover {
+  text-underline-offset: 2px;
 }
 
 .hover\:shadow-\[0_10px_20px_0_\#FF6B2C66\]:hover {
